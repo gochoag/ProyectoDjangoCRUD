@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function confirmDelete(id) {
   Swal.fire({
-    title: '¿Eliminar item?',
+    title: '¿Desea eliminar el item?',
     icon: 'warning',
     showCancelButton: true,
     confirmButtonColor: '#d33',
